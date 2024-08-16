@@ -1,6 +1,6 @@
 export default function Dashboard() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden p-4">
       <h1> page 1</h1> <br /> <br /> <br /> <br /> <br />
       <h1> page 2 </h1> <br /> <br /> <br /> <br /> <br />
       <h1> page 3 </h1> <br /> <br /> <br /> <br /> <br />

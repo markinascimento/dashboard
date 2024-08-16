@@ -1,5 +1,6 @@
 "use client";
 
+// -> Icons lib
 import { LayoutDashboard } from "lucide-react";
 
 export function NavItens() {
