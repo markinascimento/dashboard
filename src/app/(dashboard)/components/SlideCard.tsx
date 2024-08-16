@@ -10,7 +10,7 @@ interface ISlideCardProps {
 
 export function SlideCard({ title, Icon, children }: ISlideCardProps) {
   return (
-    <div className="flex flex-col gap-4 bg-white min-w-72 h-60 rounded-xl p-4">
+    <div className="flex flex-col gap-4 bg-white w-full h-72 rounded-xl p-4">
       <div className="flex items-center justify-between px-2">
         <strong> {title} </strong>
         <Icon />
