@@ -57,7 +57,7 @@ export function Sidebar() {
 
       <nav
         className={cn(
-          "bg-white  fixed w-[85vw] h-full left-[-100%] lg:max-w-72 lg:left-0 duration-1000",
+          "bg-white  fixed w-[85vw] h-full left-[-100%] lg:max-w-72 lg:left-0 z-50 duration-1000",
           isOpen && "left-0"
         )}
       >

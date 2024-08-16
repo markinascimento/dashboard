@@ -4,6 +4,9 @@ const config: Config = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "the-demise-fashion": "url(./src/assets/icons/the-demise-fashion.svg",
+      },
       colors: {
         background: "#F7F6FF",
         "royal-blue": {

@@ -3,13 +3,12 @@ import Image from "next/image";
 
 // -> Components
 import { Header } from "@/shared/components/Header";
-
-// -> Images
-import personaImage from "@/assets/images/persona.svg";
-import { Hourglass, RotateCcw } from "lucide-react";
-import { SlideCard } from "./components/SlideCard";
+import { ColleaguesActivityCard } from "./components/ColleaguesActivityCard";
 import { WeatherCard } from "./components/WeatherCard";
 import { WriteSomethingCard } from "./components/WriteSomethingCard";
+
+// -> Images
+import personaImage from "@/assets/icons/persona.svg";
 
 export default function Dashboard() {
   return (
@@ -39,26 +38,16 @@ export default function Dashboard() {
       <section className="flex gap-2 overflow-x-auto lg:justify-center mt-8 outline-none scrollbar-none">
         <WeatherCard />
 
-        <SlideCard title="Colleagues’ Activity" Icon={Hourglass}>
-          <div className="flex flex-col flex-1 w-full">
-            <span> oi </span>
-          </div>
-
-          <div className="flex items-center justify-between bg-royal-blue-100 px-2 py-1 rounded-full">
-            <p>
-              <strong className="text-sm"> Austin, TX (USA) </strong> <br />
-              <small className="block -mt-1 text-xs text-gray-400 font-medium">
-                October 3rd, 2023
-              </small>
-            </p>
-
-            <button className="flex items-center justify-center h-8 w-8 bg-royal-blue-500 rounded-full">
-              <RotateCcw className="size-5 text-white" strokeWidth={2.5} />
-            </button>
-          </div>
-        </SlideCard>
+        <ColleaguesActivityCard />
 
         <WriteSomethingCard />
+      </section>
+
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className='bg-cover bg-[url("../../assets/icons/the-demise-fashion.svg")] h-64 rounded-2xl p-4'>
+          a
+        </div>
+        <div className="bg-white h-64 rounded-2xl">b</div>
       </section>
     </>
   );
