@@ -12,7 +12,7 @@ export function Header({ children }: { children?: React.ReactNode }) {
 
         <button
           type="button"
-          className="flex items-center justify-center bg-primary min-h-12 min-w-12 rounded-full outline-none
+          className="flex items-center justify-center bg-royal-blue-500 min-h-12 min-w-12 rounded-full outline-none
           border-2 focus:border-zinc-800 transition-all text-white
           lg:min-w-36 lg:justify-between lg:rounded-[10px] lg:px-3"
         >

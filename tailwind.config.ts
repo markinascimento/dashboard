@@ -6,10 +6,13 @@ const config: Config = {
     extend: {
       colors: {
         background: "#F7F6FF",
-        primary: "#5644FC",
+        "royal-blue": {
+          "100": "#F5F4FF",
+          "500": "#5644FC",
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
 export default config;

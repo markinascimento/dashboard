@@ -26,7 +26,7 @@ export default function RootLayout({
           <Sidebar />
 
           <div
-            className="pt-12 px-3 pb-3 flex flex-col flex-1 overflow-y-auto lg:overflow-hidden 
+            className="pt-12 px-3 pb-3 flex flex-col flex-1 overflow-y-auto 
             lg:p-4 main-container"
           >
             {children}

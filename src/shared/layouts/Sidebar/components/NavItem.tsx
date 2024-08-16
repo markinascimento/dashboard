@@ -31,7 +31,7 @@ export function NavItem({ name, path, Icon, navigate }: INavItensProps) {
       )}
     >
       <div className="flex items-center px-4 gap-2 w-full h-full">
-        <Icon className="size-5 text-primary" strokeWidth={2.5} />
+        <Icon className="size-5 text-royal-blue-500" strokeWidth={2.5} />
         <strong className="tracking-[3px] font-bold text-[#15133D] uppercase">
           {name}
         </strong>
@@ -40,7 +40,7 @@ export function NavItem({ name, path, Icon, navigate }: INavItensProps) {
       <div
         className={cn(
           "w-2 h-[23px] rounded-tl-2xl rounded-bl-2xl bg-transparent",
-          isActive && "bg-primary"
+          isActive && "bg-royal-blue-500"
         )}
       />
     </button>

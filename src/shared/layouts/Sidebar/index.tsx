@@ -65,7 +65,7 @@ export function Sidebar() {
           <button
             type="button"
             onClick={closeSidebar}
-            className="absolute flex items-center justify-center bg-primary -right-5 top-0 w-10 h-10 rounded-full lg:hidden"
+            className="absolute flex items-center justify-center bg-royal-blue-500 -right-5 top-0 w-10 h-10 rounded-full lg:hidden"
           >
             <ChevronLeft className="text-white size-6" strokeWidth={3} />
           </button>
