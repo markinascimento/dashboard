@@ -1,9 +1,5 @@
 import {
-  Bell,
-  LayoutDashboard,
-  MessageCircleMore,
-  SlidersHorizontal,
-  UserCircle,
+  Bell, LayoutDashboard, SlidersHorizontal
 } from "lucide-react";
 
 export const sidebarRoutes = [
@@ -17,18 +13,6 @@ export const sidebarRoutes = [
     Icon: Bell,
     name: "all alerts",
     path: "/alert",
-  },
-
-  {
-    Icon: MessageCircleMore,
-    name: "chat",
-    path: "/chat",
-  },
-
-  {
-    Icon: UserCircle,
-    name: "my profile",
-    path: "/profile",
   },
 
   {
