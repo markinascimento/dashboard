@@ -12,6 +12,7 @@ const config: Config = {
         "royal-blue": {
           "100": "#F5F4FF",
           "500": "#5644FC",
+          '900': "#15133D"
         },
       },
     },
